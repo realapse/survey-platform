@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+}
+
+header .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+header nav a {
+    margin: 0 1rem;
+    text-decoration: none;
+    color: #0077cc;
+    font-weight: bold;
+}
+
+main {
+    margin: 2rem 0;
+}
+
+main h1 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+.buttons button {
+    margin: 0.5rem;
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.buttons .business {
+    background-color: #28a745;
+    color: white;
+}
+
+.buttons .user {
+    background-color: #007bff;
+    color: white;
+}
+
+footer {
+    margin-top: 2rem;
+    padding: 1rem;
+    background-color: #fff;
+    border-top: 1px solid #ddd;
+}
+
+footer a {
+    margin: 0 0.5rem;
+    text-decoration: none;
+    color: #666;
+    font-size: 0.9rem;
+}
