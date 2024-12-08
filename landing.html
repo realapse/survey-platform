@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>B3trSurv - Landing Page</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Welcome to B3trSurv</h1>
+    <p>The platform where businesses create surveys, and users earn by completing them.</p>
+  </header>
+
+  <main>
+    <div class="container">
+      <h2>What would you like to do?</h2>
+      <div class="button-group">
+        <button id="createSurveyBtn">Create Survey as Business</button>
+        <button id="earnBtn">Earn as User</button>
+      </div>
+      <div class="auth-buttons">
+        <button id="signUpBtn">Sign Up</button>
+        <button id="loginBtn">Login</button>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <p>© 2024 B3trSurv</p>
+  </footer>
+
+  <script>
+    // Navigation logic
+    document.getElementById("createSurveyBtn").onclick = () => window.location.href = "create-survey.html";
+    document.getElementById("earnBtn").onclick = () => window.location.href = "index.html";
+    document.getElementById("signUpBtn").onclick = () => alert("Sign-up page coming soon!");
+    document.getElementById("loginBtn").onclick = () => alert("Login page coming soon!");
+  </script>
+</body>
+</html>
