@@ -1,31 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Survey Platform</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Survey Platform</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <div class="logo">Logo</div>
-        <nav>
-            <a href="#login">Login</a>
-            <a href="#signup">Sign Up</a>
-        </nav>
-    </header>
-    <main>
-        <h1>Get Paid for Sharing Your Opinion</h1>
-        <div class="buttons">
-            <button class="business">Join as a Business</button>
-            <button class="user">Earn as a User</button>
-        </div>
-    </main>
-    <footer>
-        <a href="#faqs">FAQs</a>
-        <a href="#privacy">Privacy Policy</a>
-        <a href="#terms">Terms of Service</a>
-    </footer>
-<script src="script.js"></script>
+  <div class="container">
+    <h1>Welcome to B3trSurv 2.0</h1>
+    <form id="surveyForm">
+      <label for="question1">1. How satisfied are you with our platform?</label><br>
+      <input type="radio" name="question1" value="Very Satisfied"> Very Satisfied<br>
+      <input type="radio" name="question1" value="Satisfied"> Satisfied<br>
+      <input type="radio" name="question1" value="Neutral"> Neutral<br>
+      <input type="radio" name="question1" value="Dissatisfied"> Dissatisfied<br>
+      <input type="radio" name="question1" value="Very Dissatisfied"> Very Dissatisfied<br><br>
+      
+      <label for="question2">2. What improvements would you like to see?</label><br>
+      <textarea name="question2" rows="4" cols="50"></textarea><br><br>
+      
+      <button type="submit">Submit</button>
+    </form>
+    <p id="feedback" style="display:none;">Thank you for your feedback!</p>
+  </div>
+  <script src="script.js"></script>
 </body>
 </html>
